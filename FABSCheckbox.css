@@ -1,0 +1,173 @@
+/*
+    Font Awesome Bootstrap Checkbox and Radio Buttons 
+    Author: Samer Abu Rabie
+    V 1.0.0
+*/
+/* FABSCheckbox Radio Button*/
+.checkbox input[type=checkbox] {
+    display: none;
+}
+
+.checkbox label {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.checkbox-inline {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.checkbox input[type=checkbox]:disabled + label {
+    opacity: 0.60;
+    cursor: default;
+}
+/* unchecked icon */
+.checkbox input[type=checkbox] + label:before {
+    font-family: FontAwesome;
+    content: "\f096";
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-size: 16pt;
+    color: #3e3b3b;
+}
+/* checked icon */
+.checkbox input[type=checkbox]:checked + label:before {
+    content: "\f14a";
+}
+/*Different versions of the checkbox*/
+.checkbox-default input[type=checkbox] + label:before {
+    color: #3e3b3b;
+}
+
+.checkbox-default input[type=checkbox]:checked + label:before {
+    color: #3e3b3b;
+}
+
+.checkbox-primary input[type=checkbox] + label:before {
+    color: #337ab7;
+}
+
+.checkbox-primary input[type=checkbox]:checked + label:before {
+    color: #337ab7;
+}
+
+.checkbox-info input[type=checkbox] + label:before {
+    color: #31b0d5;
+}
+
+.checkbox-info input[type=checkbox]:checked + label:before {
+    color: #31b0d5;
+}
+
+.checkbox-warning input[type=checkbox] + label:before {
+    color: #ec971f;
+}
+
+.checkbox-warning input[type=checkbox]:checked + label:before {
+    color: #ec971f;
+}
+
+.checkbox-success input[type=checkbox] + label:before {
+    color: #5cb85c;
+}
+
+.checkbox-success input[type=checkbox]:checked + label:before {
+    color: #5cb85c;
+}
+
+.checkbox-danger input[type=checkbox] + label:before {
+    color: #c9302c;
+}
+
+.checkbox-danger input[type=checkbox]:checked + label:before {
+    color: #c9302c;
+}
+/* FABSCheckbox Radio Button*/
+.radio input[type=radio] {
+    display: none;
+}
+
+    .radio input[type=radio]:disabled + label {
+        opacity: 0.60;
+        cursor: default;
+    }
+
+.radio {
+    margin-top: 0;
+}
+
+    .radio label {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+.radio-inline {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* unchecked icon */
+.radio input[type=radio] + label:before {
+    font-family: FontAwesome;
+    content: "\f1db";
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-size: 16pt;
+    color: #3e3b3b;
+}
+
+/* checked icon */
+.radio input[type=radio]:checked + label:before {
+    content: "\f192";
+}
+
+/*Different versions of the checkbox*/
+.radio-default input[type=radio] + label:before {
+    color: #3e3b3b;
+}
+
+.radio-default input[type=radio]:checked + label:before {
+    color: #3e3b3b;
+}
+
+.radio-primary input[type=radio] + label:before {
+    color: #337ab7;
+}
+
+.radio-primary input[type=radio]:checked + label:before {
+    color: #337ab7;
+}
+
+.radio-info input[type=radio] + label:before {
+    color: #31b0d5;
+}
+
+.radio-info input[type=radio]:checked + label:before {
+    color: #31b0d5;
+}
+
+.radio-warning input[type=radio] + label:before {
+    color: #ec971f;
+}
+
+.radio-warning input[type=radio]:checked + label:before {
+    color: #ec971f;
+}
+
+.radio-success input[type=radio] + label:before {
+    color: #5cb85c;
+}
+
+.radio-success input[type=radio]:checked + label:before {
+    color: #5cb85c;
+}
+
+.radio-danger input[type=radio] + label:before {
+    color: #c9302c;
+}
+
+.radio-danger input[type=radio]:checked + label:before {
+    color: #c9302c;
+}
